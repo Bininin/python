@@ -1,0 +1,399 @@
+From e3c459eb83ed0a6764b75c549c509e5f1a581058 Mon Sep 17 00:00:00 2001
+From: Sergey <teagrupp-kuban@mail.ru>
+Date: Sun, 29 Aug 2021 17:46:34 +0300
+Subject: [PATCH] lesson4
+
+---
+ .../0001-Initial-commit.patch"                |  21 ++++++++++++++++++
+ "\320\243\321\200\320\276\320\2721/1.5.py"    |   6 +++++
+ "\320\243\321\200\320\276\320\2722/2.1.py"    |   3 +++
+ "\320\243\321\200\320\276\320\2722/2.2.1.py"  |  17 ++++++++++++++
+ "\320\243\321\200\320\276\320\2722/2.2.py"    |  17 ++++++++++++++
+ "\320\243\321\200\320\276\320\2722/2.3.py"    |   5 +++++
+ "\320\243\321\200\320\276\320\2722/2.4.py"    |  13 +++++++++++
+ "\320\243\321\200\320\276\320\2722/2.5.py"    |  11 +++++++++
+ "\320\243\321\200\320\276\320\2723/3.1.py"    |  11 +++++++++
+ "\320\243\321\200\320\276\320\2723/3.2.py"    |  13 +++++++++++
+ "\320\243\321\200\320\276\320\2723/3.3.py"    |   9 ++++++++
+ "\320\243\321\200\320\276\320\2723/3.4.1.py"  |  21 ++++++++++++++++++
+ "\320\243\321\200\320\276\320\2723/3.4.2.py"  |  11 +++++++++
+ "\320\243\321\200\320\276\320\2723/3.4.3.py"  |  16 +++++++++++++
+ "\320\243\321\200\320\276\320\2723/3.5.py"    |  12 ++++++++++
+ "\320\243\321\200\320\276\320\2723/3.6-7.py"  |   5 +++++
+ "\320\243\321\200\320\276\320\2723/ww.py"     |   7 ++++++
+ ...72\320\276\320\262 \320\241\320\230 3.rar" | Bin 0 -> 2036 bytes
+ 18 files changed, 198 insertions(+)
+ create mode 100644 "\320\243\321\200\320\276\320\2721/0001-Initial-commit.patch"
+ create mode 100644 "\320\243\321\200\320\276\320\2721/1.5.py"
+ create mode 100644 "\320\243\321\200\320\276\320\2722/2.1.py"
+ create mode 100644 "\320\243\321\200\320\276\320\2722/2.2.1.py"
+ create mode 100644 "\320\243\321\200\320\276\320\2722/2.2.py"
+ create mode 100644 "\320\243\321\200\320\276\320\2722/2.3.py"
+ create mode 100644 "\320\243\321\200\320\276\320\2722/2.4.py"
+ create mode 100644 "\320\243\321\200\320\276\320\2722/2.5.py"
+ create mode 100644 "\320\243\321\200\320\276\320\2723/3.1.py"
+ create mode 100644 "\320\243\321\200\320\276\320\2723/3.2.py"
+ create mode 100644 "\320\243\321\200\320\276\320\2723/3.3.py"
+ create mode 100644 "\320\243\321\200\320\276\320\2723/3.4.1.py"
+ create mode 100644 "\320\243\321\200\320\276\320\2723/3.4.2.py"
+ create mode 100644 "\320\243\321\200\320\276\320\2723/3.4.3.py"
+ create mode 100644 "\320\243\321\200\320\276\320\2723/3.5.py"
+ create mode 100644 "\320\243\321\200\320\276\320\2723/3.6-7.py"
+ create mode 100644 "\320\243\321\200\320\276\320\2723/ww.py"
+ create mode 100644 "\320\243\321\200\320\276\320\2723/\320\227\320\260\320\264\320\260\321\207\320\270 \320\247\321\203\321\200\320\270\320\272\320\276\320\262 \320\241\320\230 3.rar"
+
+diff --git "a/\320\243\321\200\320\276\320\2721/0001-Initial-commit.patch" "b/\320\243\321\200\320\276\320\2721/0001-Initial-commit.patch"
+new file mode 100644
+index 0000000..d0f7d7c
+--- /dev/null
++++ "b/\320\243\321\200\320\276\320\2721/0001-Initial-commit.patch"
+@@ -0,0 +1,21 @@
++From 0f99af6cf6ff020c4e563c3a8ed8f465daec1035 Mon Sep 17 00:00:00 2001
++From: Bininin <89152960+Bininin@users.noreply.github.com>
++Date: Sat, 28 Aug 2021 10:34:28 +0300
++Subject: [PATCH] Initial commit
++
++---
++ README.md | 1 +
++ 1 file changed, 1 insertion(+)
++ create mode 100644 README.md
++
++diff --git a/README.md b/README.md
++new file mode 100644
++index 0000000..bef7c17
++--- /dev/null
+++++ b/README.md
++@@ -0,0 +1 @@
+++# python
++\ No newline at end of file
++-- 
++2.33.0.windows.1
++
+diff --git "a/\320\243\321\200\320\276\320\2721/1.5.py" "b/\320\243\321\200\320\276\320\2721/1.5.py"
+new file mode 100644
+index 0000000..128dbf8
+--- /dev/null
++++ "b/\320\243\321\200\320\276\320\2721/1.5.py"
+@@ -0,0 +1,6 @@
++a=[1,2,3.4, 4.5, "asd", ("Aa","dD"),{1:111},[222,22]]
++print(a)
++for i in a:
++        print(type(i),i)
++
++
+diff --git "a/\320\243\321\200\320\276\320\2722/2.1.py" "b/\320\243\321\200\320\276\320\2722/2.1.py"
+new file mode 100644
+index 0000000..032c50c
+--- /dev/null
++++ "b/\320\243\321\200\320\276\320\2722/2.1.py"
+@@ -0,0 +1,3 @@
++a=[1, 2, 3.4, 5.6, 'asd', 'asas', [11,11],{22:22}, (33,33)]
++for i in a:
++    print(type(i),i)
+\ No newline at end of file
+diff --git "a/\320\243\321\200\320\276\320\2722/2.2.1.py" "b/\320\243\321\200\320\276\320\2722/2.2.1.py"
+new file mode 100644
+index 0000000..ac1e3b2
+--- /dev/null
++++ "b/\320\243\321\200\320\276\320\2722/2.2.1.py"
+@@ -0,0 +1,17 @@
++a = input("Введите через пробел элементы списка: ").split()
++print("Первоначальный список:\n", a)
++b = []
++if len(a) % 2 == 0:
++    for i in range(len(a)):
++        if i % 2 == 0:
++            b.append(a[i + 1])
++        elif i % 2 != 0:
++            b.append(a[i - 1])
++elif len(a) % 2 != 0:
++    for i in range(len(a)):
++        if i % 2 == 0 and i < (len(a) - 1):
++            b.append(a[i + 1])
++        elif i % 2 != 0:
++            b.append(a[i - 1])
++    b.append(a[i])
++print(b)
+diff --git "a/\320\243\321\200\320\276\320\2722/2.2.py" "b/\320\243\321\200\320\276\320\2722/2.2.py"
+new file mode 100644
+index 0000000..92b102a
+--- /dev/null
++++ "b/\320\243\321\200\320\276\320\2722/2.2.py"
+@@ -0,0 +1,17 @@
++a=input("Введите через пробел элементы списка: ").split()
++print("Первоначальный список:\n", a)
++b=[]
++if len(a)%2==0:
++    for i in range(len(a)):
++        if i%2==0:
++            b.append(a[i+1])
++        elif i%2!=0:
++            b.append(a[i-1])
++elif  len(a)%2!=0:
++    for i in range(len(a)):
++        if i%2==0 and i<(len(a)-1):
++            b.append(a[i+1])
++        elif i%2!=0:
++            b.append(a[i-1])
++    b.append(a[i])
++print(b)
+\ No newline at end of file
+diff --git "a/\320\243\321\200\320\276\320\2722/2.3.py" "b/\320\243\321\200\320\276\320\2722/2.3.py"
+new file mode 100644
+index 0000000..ae1dc01
+--- /dev/null
++++ "b/\320\243\321\200\320\276\320\2722/2.3.py"
+@@ -0,0 +1,5 @@
++a=int(input("Введите номер месяца: "))
++# print("Первоначальный список:\n", a)
++d={1: "Январь",2: "Февраль",12: "Декабрь", 3: "Март", 4: "Апрель", 5: "Май", 6: "Июнь", 7: "Июль", 8: "Август", 9: "Сентябрь", 10: "Октябрь", 11: "Ноябрь" }
++l=["Зима","Зима","Весна","Весна","Весна","Лето","Лето","Лето","Осень","Осень","Осень","Зима"]
++print("Месяц: ",d.get(a),"\nВремя года: ", l[a-1])
+\ No newline at end of file
+diff --git "a/\320\243\321\200\320\276\320\2722/2.4.py" "b/\320\243\321\200\320\276\320\2722/2.4.py"
+new file mode 100644
+index 0000000..e4f78e5
+--- /dev/null
++++ "b/\320\243\321\200\320\276\320\2722/2.4.py"
+@@ -0,0 +1,13 @@
++a = int(input("Введите натуральное число: "))
++b = [7, 5, 3, 3, 2]
++print("Рейтинг до: ")
++for i in range(len(b)):
++    if a > int(b[i]):
++        print(b[i])
++        b.insert(i, a)
++        break
++    else:
++        b.append(a)
++        break
++print("Рейтинг после: ")
++print(b)
+diff --git "a/\320\243\321\200\320\276\320\2722/2.5.py" "b/\320\243\321\200\320\276\320\2722/2.5.py"
+new file mode 100644
+index 0000000..ad8a272
+--- /dev/null
++++ "b/\320\243\321\200\320\276\320\2722/2.5.py"
+@@ -0,0 +1,11 @@
++a = int(input("Введите натуральное число: "))
++b = [7, 5, 3, 3, 2]
++b.append(0)
++print("Рейтинг до: ", b)
++for i in range(len(b)):
++    print(b[i], i)
++    if a > b[i]:
++        b.insert((i), a)
++        break
++print("Рейтинг после: ")
++print(b)
+diff --git "a/\320\243\321\200\320\276\320\2723/3.1.py" "b/\320\243\321\200\320\276\320\2723/3.1.py"
+new file mode 100644
+index 0000000..15ec92d
+--- /dev/null
++++ "b/\320\243\321\200\320\276\320\2723/3.1.py"
+@@ -0,0 +1,11 @@
++def div(a=int(input("Введите числитель:")), b=int(input("Введите знаменатель: "))):
++    try:
++        div_ = a / b
++    except ZeroDivisionError:
++        print("Error. Деление на 0")
++        return
++    return div_
++
++
++div_ = div()
++print("Результат деления: ", div_)
+diff --git "a/\320\243\321\200\320\276\320\2723/3.2.py" "b/\320\243\321\200\320\276\320\2723/3.2.py"
+new file mode 100644
+index 0000000..274942d
+--- /dev/null
++++ "b/\320\243\321\200\320\276\320\2723/3.2.py"
+@@ -0,0 +1,13 @@
++def func():
++    name = (input("Введите Имя:"))
++    fname = (input("Введите Фамилию:"))
++    born = (input("Введите год рождения:"))
++    city = (input("Введите город:"))
++    email = (input("Введите e-mail:"))
++    phone = (input("Введите номер телефона:"))
++    data = name + " " + fname + " " + born + " " + city + " " + email + " " + phone
++    return data
++
++
++data = func()
++print("Данные: ", data)
+diff --git "a/\320\243\321\200\320\276\320\2723/3.3.py" "b/\320\243\321\200\320\276\320\2723/3.3.py"
+new file mode 100644
+index 0000000..e3e87cc
+--- /dev/null
++++ "b/\320\243\321\200\320\276\320\2723/3.3.py"
+@@ -0,0 +1,9 @@
++def my_func(a,b,c):
++    s = a + b + c - min(a, b, c)
++    return s
++
++
++s = my_func(a = int(input("Введите первый элемент:")),
++    b = int(input("Введите второй элемент:")),
++    c = int(input("Введите третий элемент:")))
++print("Сумма двух максимальных элементов: ", s)
+diff --git "a/\320\243\321\200\320\276\320\2723/3.4.1.py" "b/\320\243\321\200\320\276\320\2723/3.4.1.py"
+new file mode 100644
+index 0000000..6753d48
+--- /dev/null
++++ "b/\320\243\321\200\320\276\320\2723/3.4.1.py"
+@@ -0,0 +1,21 @@
++a = int(input("Введите значение:"))
++n = int(input("Введите степень:"))
++def my_func(a,n):
++    if a == 0:
++        s=0
++        return s
++    elif n == 0:
++        s=1
++        return s
++    elif n == 1:
++        return a
++    elif n < 0:
++        s=(1 / (a*(my_func(a, -n-1))))
++        return s
++    else:
++        s = a*my_func(a, n-1)
++        return s
++
++
++s = my_func(a,n)
++print(f"{a} в степени {n}= {s}")
+diff --git "a/\320\243\321\200\320\276\320\2723/3.4.2.py" "b/\320\243\321\200\320\276\320\2723/3.4.2.py"
+new file mode 100644
+index 0000000..6c33ffd
+--- /dev/null
++++ "b/\320\243\321\200\320\276\320\2723/3.4.2.py"
+@@ -0,0 +1,11 @@
++a = int(input("Введите значение:"))
++n = int(input("Введите степень:"))
++
++
++def my_func(a, n):
++    s = a ** (n)
++    return s
++
++
++s = my_func(a, n)
++print(f"{a} в степени {n}= {s}")
+diff --git "a/\320\243\321\200\320\276\320\2723/3.4.3.py" "b/\320\243\321\200\320\276\320\2723/3.4.3.py"
+new file mode 100644
+index 0000000..d36b714
+--- /dev/null
++++ "b/\320\243\321\200\320\276\320\2723/3.4.3.py"
+@@ -0,0 +1,16 @@
++a = int(input("Введите значение:"))
++n = int(input("Введите степень:"))
++s=1
++for i in range(abs(n)):
++    if a == 0:
++        s=0
++    elif n == 0:
++        s=1
++    elif n == 1:
++        s=a
++    elif n < 0:
++
++        s=s*(1 / (a))
++    else:
++        s =s*a
++print(f"{a} в степени {n}= {s}")
+diff --git "a/\320\243\321\200\320\276\320\2723/3.5.py" "b/\320\243\321\200\320\276\320\2723/3.5.py"
+new file mode 100644
+index 0000000..48809dc
+--- /dev/null
++++ "b/\320\243\321\200\320\276\320\2723/3.5.py"
+@@ -0,0 +1,12 @@
++s = 0
++b = 0
++while b == 0:
++    a = (input("Введите значения через пробел (для прекращения опеции нажмите E) :").split())
++    for i in range(len(a)):
++        try:
++            s = s + int(a[i])
++        except ValueError:
++            if a[i].upper() == "E":
++                b = 1
++            pass
++    print("Сумма элементов: ",s)
+diff --git "a/\320\243\321\200\320\276\320\2723/3.6-7.py" "b/\320\243\321\200\320\276\320\2723/3.6-7.py"
+new file mode 100644
+index 0000000..02fb84a
+--- /dev/null
++++ "b/\320\243\321\200\320\276\320\2723/3.6-7.py"
+@@ -0,0 +1,5 @@
++def words(a=input("Введите значение:")):
++    words=a.title()
++    return words
++words()
++print(words())
+diff --git "a/\320\243\321\200\320\276\320\2723/ww.py" "b/\320\243\321\200\320\276\320\2723/ww.py"
+new file mode 100644
+index 0000000..6ea6878
+--- /dev/null
++++ "b/\320\243\321\200\320\276\320\2723/ww.py"
+@@ -0,0 +1,7 @@
++from sys import argv
++
++name, s_1,s_2,s_3=argv
++print(argv)
++print(s_1)
++print(s_2)
++print(s_3)
+\ No newline at end of file
+diff --git "a/\320\243\321\200\320\276\320\2723/\320\227\320\260\320\264\320\260\321\207\320\270 \320\247\321\203\321\200\320\270\320\272\320\276\320\262 \320\241\320\230 3.rar" "b/\320\243\321\200\320\276\320\2723/\320\227\320\260\320\264\320\260\321\207\320\270 \320\247\321\203\321\200\320\270\320\272\320\276\320\262 \320\241\320\230 3.rar"
+new file mode 100644
+index 0000000000000000000000000000000000000000..4d79c9ebb9b09a42f73d34ede8d11ec6de91decd
+GIT binary patch
+literal 2036
+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
+
+literal 0
+HcmV?d00001
+
+-- 
+2.33.0.windows.1
+
